@@ -1,0 +1,462 @@
+
+/* TOP HEADER */
+body {overflow-x: hidden;}
+.menu_section {background:#25bbd6; padding:12px 0; color:#fff; text-align:center;margin-bottom:10px}
+.layout_section li{float: left; list-style: none;}
+
+.layout_section li a {padding: 8px 15px; display: block;  background: #f5f5f5; margin-right: 5px; border-radius: 4px; text-transform: uppercase; }
+.layout_section li a:hover { background: #e1e1e1; color: #000;}
+
+.layout_section ul, .form_tab_menu ul {margin: 0;padding: 0;}
+.form_tab_menu li {display: inline-block;}
+.form_tab_menu li a {padding: 8px 10px; display: block; margin-right: 5px; text-transform: uppercase; border: 1px solid #1486d6; background: #fff; border-radius: 4px;}
+.form_tab_menu li a:hover { background: #1486d6; color: #fff;}
+.drag_drop_section {border: 1px solid #ddd;  margin: 0 auto; width: 1050px !important; min-height: 600px;position: relative;}
+.drag_main_section .container
+{
+    padding: 0 !important;    
+}
+.drag_itemtarget_section { margin-top: 20px; }
+
+.drag_itemtarget_section table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.layout_section
+{
+    float: left;
+}
+.form_tab_menu
+{
+    float: right;
+}
+
+.drag_itemtarget_section td, .drag_itemtarget_section th {
+    border: 1px solid #25bbd6;
+    padding: 12px;
+}
+
+.drag_itemtarget_section tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+.drag_item_area h3 {font-size: 16px; text-transform: uppercase;}
+.nol_number {width: 5%; text-align: center;}
+.drop_target label {padding-left: 20px;}
+.drag_item span {padding-right: 20px;}
+.display_ques .drag-drop-area
+{
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    min-height: 600px;
+    position: relative;
+    width: 1050px !important;
+}
+.MakeDraggble, .ui-draggable
+{
+    cursor: pointer;
+}
+.highlight 
+{
+    background-color: cyan;
+    font-weight: bold;
+}
+.drag-drop-area .MakeDraggble, .drag-drop-area .ui-draggable{
+    z-index: 1;
+}
+.drag-drop-area .text_label
+{
+    border:none;
+}
+
+div.upload input {opacity: 0; cursor:pointer; width: 100%; height:40px;overflow: hidden;}
+.upload {float: left;margin-right: 5px;position: relative;width: 140px; background: #f5f5f5; border-radius: 4px;}
+.upload .file-path-input .file-path {padding-left: 10px;}
+.upload .file-path-input{color: #565656;font-size: 14px;font-weight: 300;left: 0;position: absolute;top: 0;width: 100%; line-height:40px; pointer-events: none; text-transform: uppercase;}
+.upload:hover {background: #e1e1e1 }
+
+
+
+
+/*.makeMeDraggable1 { width: 50px; height: 20px;  }*/
+.makeMeDraggable1 {
+    display: inline-block;
+    /*   height: 44px;*/
+    text-transform: uppercase;
+    /*    width: 147px;*/
+    border:1px dotted;
+}
+.makeMeDraggable1  label , .makeMeDraggable3  label   {
+    display: inline-block;
+    width: 100%;
+}
+.makeMeDraggable3 {
+    border: 1px dotted;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.add-freefrom-question .container {
+display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.main {
+    border: 1px solid;
+    display: inline-block;
+    padding: 2px;
+    width: 100%;
+}
+.left_sidebar {
+    border: 1px solid;
+    float: left;
+    height: 600px;
+    margin-right: 1px;
+    width: 17%;
+}
+.right_sidebar {
+    /*    border: 1px solid;*/
+    float: left;
+    height: 600px;
+    width: 82.5%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.left_sidebar h4,.right_sidebar h4 {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.left_sidebar ul {
+    padding: 0px ;
+    list-style: none;
+}
+.left_sidebar ul li {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-align: left;
+    width: 100%;
+}
+.btn {
+    background: #d1d1d1 none repeat scroll 0 0;
+    color: #000;
+    font-size: 13px;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.btn:hover {
+    background: #aaa none repeat scroll 0 0;
+}
+.layout_box {
+    border-bottom: 1px solid;
+    display: inline-block;
+    height: 290px;
+    width: 100%;
+}
+.drop_item {
+    border-bottom: 1px solid;
+    display: inline-block;
+    height: 290px;
+    width: 100%;
+}
+.level_menu:hover{
+
+}
+
+ul li ul.dropdown{
+    min-width: 100%; /* Set width of the dropdown */
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+.newtri,.newtriangle{
+    border: 1px solid;
+    width: 128px;
+
+    height: 72px;
+    /*    display: inline-block;*/
+}
+.triangles_map{
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    /*    border-width: 0 109px 120.2px;*/
+    border-left-width:109px;
+    border-right-width: 109px;
+    border-bottom-width: 120.2px;
+    border-top-width:0px; 
+    border-color: transparent transparent #007bff transparent;
+    float: left;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+
+.up {
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 0 109px 120.2px;
+    border-color: transparent transparent #007bff transparent;
+    float: left;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+/*.makeMeDroppable { border: 2px dotted;}*/
+.circle { width: 80px; display: inline-block;  height: 80px; text-align: center;   border: 2px solid; -moz-border-radius: 40px!important; -webkit-border-radius: 40px!important; border-radius: 40px!important; }
+.circle .circle_text {
+    background: transparent;
+    height: 52px;
+    left: 19px;
+    margin: 0;
+    overflow-y: hidden;
+    position: absolute;
+    text-align: center;
+    top: 13px;
+    width: 41px;
+}
+.up .triangle_text {
+    background: transparent;
+    height: 31px;
+    left: -37px;
+    margin: 0;
+    overflow-y: hidden;
+    position: relative;
+    text-align: center;
+    top: 38px;
+    width: 70px;
+}
+.common_require {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    font-size: 14px;
+    height: 17px;
+    resize: none;
+    text-align: center;
+    width: 96px;
+}
+.drag-drop-area .ui-draggable-dragging{border: 2px solid #0E3777;}
+
+.text_field {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #738ca2;
+    display: inline-block;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.text_label{
+    border: 1px dotted #000;
+    background: transparent;
+    display: inline-block;
+    padding: 5px;
+}
+.answer > ul {
+    list-style: outside none none;
+    text-transform: uppercase;
+}
+.form_tab_menu li .active{
+    background-color: #1486d6;
+    color: #ffffff;
+}
+
+#makeMeDraggable { width: 100px; height: 20px; background: #5fba7d; }
+#content{
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid black;
+
+}
+#content_question{
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.makeMeDraggable1 > a {
+    background: #000 none repeat scroll 0 0;
+    color: red;
+    padding: 1px 4px;
+    position: absolute;
+    right: 6px;
+    text-decoration: none;
+    top: 3px;
+}
+#loadingDiv{
+    position:fixed;
+    top:0px;
+    right:0px;
+    width:100%;
+    height:100%;
+    background-color:#666;
+    background-image:url('https://i.stack.imgur.com/oQ0tF.gif');
+    background-repeat:no-repeat;
+    background-position:center;
+    z-index:10000000;
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+.makeMeDraggable_user{
+    border: 2px solid;
+    height: 17px;
+    margin: 0;
+    width: 147px;
+    display: inline-block;
+    z-index: 999999;
+    text-align: center;
+}
+.blank_question {
+    border: 2px dotted;
+    height: 25px;
+    margin: 0;
+    width: 147px;
+    display: inline-block;
+}
+
+.blank_list, .answer_list{
+    float: left;
+    width: 30%;
+    padding: 5px;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.first_nav {
+    list-style: outside none none;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.msg_active{
+    display: block;
+}
+.msg{
+    display: none;
+}
+.correct {
+    /*background: #619DCB!important;*/
+    border: 1px solid #25BBD6!important;
+    border-radius: 3px;
+    opacity: 1!important;
+}
+.context-menu{
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 200px;
+    background: white;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.context-menu ul{
+    list-style: none;
+    padding: 2px;
+}
+
+.context-menu ul li{
+    padding: 5px 2px;
+    margin-bottom: 3px;
+    color: white;
+    font-weight: bold;
+    background-color: darkturquoise;
+
+}
+.context-menu ul li:hover{
+    cursor: pointer;
+    background-color: #7fffd4;
+}
+/* Colors */
+.Gainsboro ,.Orange ,.Plum {
+    width:15px;
+    height:15px;
+    border: 0px solid black;
+    display: inline-block;
+    margin-right: 5px;
+}
+.Gainsboro {
+    background-color: Gainsboro ;
+}
+.Orange {
+    background-color: Orange ;
+}
+.Plum {
+    background-color: Plum ;
+}
+.layout_section .active{
+    border: 3px solid red;
+}
+.drag_drop_section .active
+{
+    border: 3px solid red;    
+}
+
+
+
+/**************** new  css *************/
+
+.structure_make,.structure_choice {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid;
+    /*    text-align: center;*/
+    /*        position: relative;*/
+}
+.structure_make_front{
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid;
+    height: 700px;
+}
+.structure_make h4,.structure_choice h4 {
+    display: inline;
+}
+.nav{
+    display: inline-block;
+    /*    width: 100%;
+        border-bottom: 1px solid;*/
+}
+.nav > ul {
+    margin-top: 10px;
+    list-style: outside none none;
+    text-align: left;
+}
+.nav li {
+    display: inline;
+}
+.make_layout,.choice_layout {
+    /*    display: inline-block;*/
+    height: 300px;
+    width: 100%;
+    border-top: 1px solid;
+    float: left;
+    /*    position: relative;*/
+}
+.Additional_options {
+    border-left: 1px solid;
+    border-top: 1px solid;
+    float: left;
+    height: 300px;
+    width: 20%;
+}
+
+
+@media only screen and (max-width: 768px) {
+.drag_drop_section { display: block;
+    overflow-y: scroll;
+    width: 100%;}
+
+}

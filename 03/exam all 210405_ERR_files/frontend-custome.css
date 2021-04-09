@@ -1,0 +1,6 @@
+.terms{border:1px solid #cc0000;}
+label.error{color: #cc0000;font-weight: normal;}
+.error{color: #cc0000; padding-top:2px; }
+.textcolor{color:#cc0000; padding-top:2px;}
+.invalid{color: #cc0000; padding-top:2px;}
+.success{color:#228B22; padding-top:2px;}

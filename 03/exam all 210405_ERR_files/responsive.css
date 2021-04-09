@@ -1,0 +1,510 @@
+@media screen and (max-width:1200px){
+
+	.we_help_section .student_section{margin-right:33px;}
+	.we_help_section .student_section .category_detail{padding:20px;width:330px;}
+
+	.we_help_section .student_section .category_detail h2{font-size:18px;}
+	.main_banner .services_box li h3, .reg_part h1{font-size:30px;}
+	.main_banner .services_box li .icon{display:inline-block; width:auto; padding:0 15px;}
+	.all_title{font-size:20px;}
+	
+	.slide_img > img {height: 100%; width: 100%;}
+	.slide_img {width: 24%;}
+	.testimonials_text {width: 71%;}
+	.testimonials {border-bottom: #1b4992 290px solid;}
+
+
+	/*batch page*/
+		.portlet-body .input-group.date{display:inline-block;width:48%}
+	/*batch  page end*/
+	.select-dropdown.select-langu, .text-expiry-date{width:50%}
+	div.dataTables_info{margin-top:10px;}
+
+	.profile_setting .border-none.reg-none, .profile_setting .select-dropdown{width:85%}
+    .profile_setting  #add_testimonial .border-none.reg-none{width:calc(100% - 45px);}
+	.profile_setting .upload .file-path-input::before{width:45px;}
+
+	.vectorize_howitwork .work-col::before{left:126px; width:91px;}
+.step-box{display:inline-block; left: 0; width:auto; height: auto;}
+.step-box .step-count{position: inherit; display:inline-block;}
+	.add_banner{width:48%}
+	.customer_slide .c_detail {width: 66%; float:none; right: inherit; left: 0; margin-left:150px}
+	.top_header{padding:5px 10px}
+	.reg-user-icon{width:50px}
+	.registration-form-left{padding:35px;}
+	.main_banner{max-height: inherit;}
+	.currect_ans{padding:0}
+	.dashborad-menu ul li:nth-child(7) ul {left: -66px;}
+	.btnarea-left .link.commun_link, .btnarea-right .link.commun_link {margin: 0 20px 8px 0;}
+	.dashborad-menu ul li:nth-child(7) ul {left: -66px;}
+	.login-from-main{padding:30px 48px}
+	.work-col{width:17%}
+.customer_slide .c_detail .btn.btn-danger {background: #1b4992;border: none;display:inline-block;margin-left:5px;width: 100px;margin-top: 15px;}
+.main_banner .services_box li {font-size: 13px;}
+}
+
+@media screen and (max-width: 1023px){
+.main_banner .services_box li{width:24.75%}
+.reg_part h1, .nav.nav-tabs.tabs-account a{font-size:20px;}
+.main_banner .services_box li h3 span{font-size:13px;}
+.main_banner .services_box li:hover .icon{height:40px; line-height:40px;}
+.main_banner .services_box li .icon{height:50px; line-height:64px;}
+.main_banner .services_box li h3{margin:20px 0; font-size:16px;}
+.main_banner .services_box li strong {
+  font-size: 11px;
+  line-height: 14px;
+}
+.category_detail h4{font-size:14px; font-family: "Raleway",sans-serif}
+.testimonials{border-bottom: 221px solid #1b4992}
+.customer_slide .c_detail .btn.btn-danger {
+  background: #1b4992;
+  border: none;
+  display: block;
+  width: 100px;
+  margin-top: 15px;
+}
+.main_banner .services_box li:hover h3{margin:-14px 0 10px}
+.we_help_section .student_section .category_detail{ right:-23px; width:188px; padding:15px 20px;}
+.we_help_section .student_section{width: 46%;margin-right: 32px;}
+	.we_help_section .student_section .category_detail h2, .quiz-result-summery h4{font-size:16px; line-height: normal;}
+.arrow_link .fa{font-size:16px; font-weight:normal;}
+.category_detail p{font-size:13px;}
+.testimonials_text{width:65%}
+.customer_slide .slide_img {width: 39%;}
+.customer_slide .c_detail {width: 55%; float:none; right: inherit; left: 0; margin-left:150px;  position:initial;}
+.customer_slide .slide1{width:31%;}
+.all_title, .reg_part h1{font-size:18px;}
+.arrow_link a{font-size:14px;}
+.main_banner .services_box li{height:165px;}
+.quick-links h4{font-size:16px;}
+ul.social-network li{margin:0px 5px 5px}
+.main_banner .header_menu li a, .link, button.btn-submit, .btn.btn-submit.btn-main, .btn.btn-submit.btn-generate, .form-actions .btn-success, .form-actions .btn-danger, .quis-pop-inner-wrp > h3{font-size:16px;}
+
+/*.portlet-body .input-group.date{width: auto;}*/
+
+.generate-quiz-sub-main{width:80%}
+.prd_type li{padding:8px;}
+.prd_type .acce_name, .prd_type .cart_item a{font-size:14px;}
+
+.cls-search-user_report .user_search_box, .user_search_box > input#search_email{width:100%}
+.cls-search-user_report .common_title{margin:34px 0px; font-size:20px;}
+.my-account-detail p{width:100%}
+
+.create-ques-padd:first-child{padding: 0 40px 0 0 !important}
+
+.create-ques-padd {padding: 0 0 0 40px !important;}
+
+.profile_setting .border-none.reg-none, .profile_setting .select-dropdown{width:79%; float: left;}
+
+.quiz-question-wrp .quiz-question{padding:10px !important;}
+.quiz-question-title .HeaderLeft{font-size:14px; width:32%}
+.registration-main .link.commun_link.submit-link{padding:8px 18px}
+
+.quiz-resume-thank-you-main h2{font-size:25px;}
+.quiz-resume-thank-you-main h4{font-size:20px;}
+.quiz-resume-thank-you-main h2::before {left: -123px; top: 7px; width: 100%;}
+.quiz-resume-thank-you-main h2::after {right: -123px; top: 7px; width: 100%;}
+.modal-lg{width:96%}
+.modal-footer {display: table !important; float: none !important; width:100%;}
+.modal-footer .answered, .unanswered, .review, .notViewed, .quiz-result-summery .Correct, .quiz-result-summery .Wrong, .quiz-result-summery .didnotProvideAns{padding:5px 10px !important; vertical-align: middle; float:none !important; display: table-cell;}
+
+.currect_ans{padding-left:0}
+.correct-box ul li{width:49%}
+
+.vectorize_howitwork .work-col::before{left:180px !important; width:91px;}
+.vectorize_howitwork .work-col:nth-child(3)::before{display:none;}
+.work-col{width:30%;}
+.step-box{display:inline-block; left: 0; width:auto; height: auto;}
+.step-box .step-count{position: inherit; display:inline-block;}
+.g-recaptcha{overflow: auto;}
+.registration-form .nopadd{margin-left:0}
+.quiz-engine-head h4{font-size:16px; line-height: 25px;}
+.payments-fields, .credit-card-details{padding:20px;}
+.table-scrollable{overflow: auto;}
+.add-user .select-dropdown{width:100%}
+
+.QuestionComment .quiz-quest-comment textarea, .QuestionComment .quiz-quest-comment input{width:100%}
+.btnarea-left .link.commun_link, .btnarea-right .link.commun_link{margin:0 20px 8px 0; }
+
+.we_help_section .student_section .student_img, .we_help_section .student_section .school_img, .we_help_section .student_section .instructor_img{width: 100%;}
+.profile_setting .change-password-img{min-width:100%}
+.select-dropdown, .select-accessType, .create-question .width-start{width:65%}
+.main_banner .services_box{margin-top:50px;}
+
+
+
+
+}
+@media screen and (min-width:992px ) and (max-width: 1023px){
+		.customer_slide .c_detail{width:65%}
+		
+
+}
+@media screen and (min-width:600px ) and (max-width: 767px){
+
+	
+	.profile_setting .border-none.reg-none, .profile_setting .select-dropdown  {width: 92% !important;}
+	.testimonials{border-bottom:520px solid #1b4992;}
+	.user_name {width: 100%;}
+	 .home_work_alert_icon, .my-cart.dropdown {width: 100%;}
+	
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+	.main_banner .services_box li {font-size: 13px;}
+	.we_help_section .student_section .category_detail { width: 258px;}
+	.testimonials_text {width: 57%;}
+	.testimonials { border-bottom: 430px solid #1b4992;}
+	.slide_img {margin-top: 85px;}
+}
+
+@media (min-width: 993px) and (max-width: 1199px){
+
+/**/
+.report-card-sub-content label.error {
+  padding-left: calc(100% - 458px);
+}
+
+.create-question .domain_topic_mode + .regi.select-menu {width:29.5%;}
+.create-question .regi.select-menu {width:34%;}
+.homework.clearifx{clear: both;}
+.create-question .regi.select-menu.select-area {width: 34%;}
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+
+.report-card-sub-content label.error {
+  margin-top:-34px;
+  padding-left: calc(100% - 238px);
+}
+/**/
+
+.create-question .domain_topic_mode + .regi.select-menu {width: 28.3%;}
+.create-question .regi.select-menu {width:34%;}
+.homework.clearifx{clear: both;}
+.create-question .regi.select-menu.select-area {width: 34%;}
+
+}
+
+@media (max-width: 767px){
+
+.footer-logo, .quick-main{float:none;}
+.main_banner .services_box li {float: none; width: auto; margin-bottom:20px;}
+.add_banner{width:48%}
+.main_banner{max-height:inherit;}
+.register-banner{max-height: inherit; padding-bottom:20px;}
+.col-sm-2 > a{display: block; text-align: center;}
+.main_banner .services_box{margin-top: 10px;}
+.header_menu li a, .portlet-title .caption{font-size:14px;}
+.main_banner .header_menu li{padding-left:20px;}
+.we_help_section .student_section{width: 46%}
+.school_img > img, .instructor_img > img, .student_img > img{width:100%}
+.design-by{text-align: center; padding-top:10px;}
+.quick-links{margin-top:20px;}
+.customer_slide .c_detail{top: inherit; bottom: 0; width: auto; margin-left: 0}
+.vectorize_howitwork .work-col:nth-child(3)::before{display:block;}
+.all_title, .reg_part h1, .create-question .comn_title, .qstn-title, .modal-title, .bootbox-confirm h4.popup-head-title, .nav.nav-tabs.tabs-account a, .memer-login h, .name-add, .QuestionComment .quiz-quest-comment .QuestionName h4, .slide_img h4{font-size:16px; line-height: normal;}
+.cls-search-user_report .common_title{font-size:16px; margin:0 0 15px;}
+.we_help_section .student_section .category_detail h2{font-size:14px;}
+.arrow_link a, .top_header{font-size:13px;}
+.we_help_section .student_section .student_img{width:100%; height:auto; float:none;}
+.we_help_section .student_section .category_detail{ position: inherit; right: 0; width:100%; bottom: 0; margin:20px 0; min-height: 350px;}
+.we_help_section .student_section:nth-child(3){margin-right:0px;}
+.we_help_section .student_section .school_img, .we_help_section .student_section .instructor_img{width:auto;height: auto; float:none}
+.testimonials{border-bottom:500px solid #1b4992;}
+.testimonials_text{width:100%; margin-top:50px}
+.testimonials{margin-top: 0}
+.copyright{text-align: center;}
+.slide_img{margin:0 auto; float:none; width:190px}
+.we_help_section{margin:20px 0;}
+.we_help_section .all_title{margin-bottom:25px}
+.customer_slide .slide1{width:100%}
+.main_banner .logo{margin: 25px 0 0}
+
+.portlet-body .input-group.date{width:100%}
+div.dataTables_info{float: left;}
+.my-account-user-details .my-account-info span, .report-card-sub-content .quiz-certificate span{vertical-align: middle;}
+.my-account-user-details .my-account-info p, .report-card-sub-content .quiz-certificate p{height:auto; line-height: normal; padding:8px; font-size:14px;}
+.registration-title{padding:15px;}
+.front-end-datatable .portlet .portlet-title .caption{padding:5px 17px;}
+.dropdown{float:none; margin:10px 0; width: 100%; margin-left: 0; margin-right: 0;}
+.home_work_alert_icon, .my-cart.dropdown {width: 100%; margin-left: 0; margin-right: 0; margin-top: 10px;}
+.we_help_section .student_section, .we_help_section .student_section:nth-child(2) {margin-bottom: 0;}
+.home_work_alert_icon .homework-dropdown-content {left: 15px;}
+.page-content{min-height: inherit !important;}
+.front-end-datatable .portlet.box.grey-cascade{margin-top:25px;}
+.inner-white-box{padding:15px 20px;}
+
+.generate-quiz-sub-main{width:90%}
+.box-one{padding: 25px 20px}
+.create-question .regi.select-menu, .readiobox.multiple, .text-expiry-date{width: 100%}
+.select-dropdown.select-langu{width:100%;}
+.my-account-user-details .select-langu{width:84%}
+.generate-quiz-sub-main .form-control, .my-account-user-details .form-control{padding: 6px 30px 6px 15px}
+.generate-quiz-sub-main{margin:0 auto}
+.generate-main{margin-bottom: 0}
+.generate-quiz-sub-main .generate-main .btn-generate{margin-bottom: 0}
+.my-account-user-details{padding:15px 25px}
+
+.prd_type li{width:50%}
+.datatable-add-new-btn{top:20px;}
+.front-end-datatable .portlet.grey-cascade .portlet-body{padding:15px 20px;}
+.table-scrollable{overflow: auto;}
+
+.report-card-sub-content strong{display: block;}
+.report-card-sub-content .select-dropdown{width:100%; margin:5px 0 10px;}
+.report-card-content hr{margin-top:10px}
+.cls-search-user_report .user_search_box, .user_search_box > input#search_email{width:100%}
+
+.quiz .regi.select-menu.select-area{width:91%}
+.generate-quiz-sub-main .quiz .readiobox{margin-top:15px;}
+.generate-quiz-sub-main .quiz .multiple{margin:0;}
+.generate-quiz-sub-main .quiz .form-group{margin-bottom: 5px;}
+ .create-question .btn.btn-submit.btn-generate{font-size:14px; padding:10px 24px;}
+
+.create-ques-padd:first-child{padding:0 10px !important}
+.create-ques-padd{padding: 0 10px !important}
+.registration-form.membership, .footer-part{padding:25px 0}
+.membership .create-question .regi{margin:0 0 12px;}
+
+.profile_setting .border-none.reg-none, .profile_setting .select-dropdown{width:89%}
+
+.profile_setting .change-password-img{float:none; min-width:100%; margin-top:10px;}
+.profile_setting .change-password-img img{width:100%}
+.profile_setting .comapny-information-wrp textarea.form-control, .upload-logo-file, .profile_setting .upload{width:100% !important}
+
+.registration-title h1.all_title{margin-top:10px;}
+.cart-items {display: block; overflow: auto; width: auto; margin-top: 8px;}
+.cart-item .product-item-details{margin-top:15px; padding: 0}
+.btn.btn-back{white-space: normal; word-break:break-all;}
+.cart-tools .cart-instructions{float:none; width: auto;}
+.cart-tools .cart-totals{float:none; width: auto; padding: 0; text-align: left; margin-top: 10px}
+.button-primary{margin:0 }
+
+.quiz-question-wrp .AnsExplanation{padding:20px;}
+.btnarea-cont{padding:15px 0 0 0}
+
+.quiz-question-title .HeaderLeft{float:none; width: auto; margin-bottom:10px;}
+.links-right{float: none; text-align: left; margin-top:15px}
+.btnarea-left .link.commun_link, .btnarea-right .link.commun_link{margin:10px 0 0 0; display: block;}
+.btnarea .btnarea-right{width:auto;}
+.btnarea{padding:5px 0 10px 0px;/*25px 0 10px*/}
+.mdragd-match-choice.ui-sortable{margin-left:42px;}
+.display_ques .qstn-line{margin:10px 0 0 }
+.question-hp{margin-bottom:10px;}
+.qstn-line input.fill-the-blank-ques{width:28%}
+.quiz-question-wrp #QuestionName7{margin:0 0px 10px}
+
+.quiz-question-wrp .content-box{padding:10px 15px;}
+.qstn-line label{padding-right: 0}
+
+.quiz-resume-thank-you-main{padding:20px 15px}
+.registration-main .link.commun_link.submit-link{margin:0 0 10px 10px !important; display:inline-block;}
+.btnarea-cont .link.commun_link.submit-link{margin-bottom: 8px;}
+.quiz-resume-thank-you-main h2{font-size:20px;}
+.quiz-resume-thank-you-main h4{font-size:18px;}
+
+.correct-box ul li{float:none; width:100%}
+.action-box{width:60%}
+.true_false_options li {width: 38% !important;}
+.contribute .link.commun_link, .contribute .commun_link{float:left; margin-right: 11px; padding: 8px 16px !important; width: 135px; font-size:14px}
+.work-col{width:auto; float:none; margin-bottom:60px;}
+.work-col:last-child{margin-bottom: 0}
+.vectorize_howitwork{margin-top:10px;}
+.vectorize_howitwork .work-col::before{bottom: -23%; left: 0 !important; margin: 0 auto; right: 0; top: inherit;-o-transform: rotate(90deg); -ms-transform: rotate(90deg); -moz-transform: rotate(90deg); -webkit-transform: rotate(90deg); transform: rotate(90deg); width: 40px;}
+.payments-fields-right{padding:20px 10px;}
+.nav.nav-tabs.tabs-account a{padding:12px 15px;}
+.nav.nav-tabs.tabs-account li.active a{padding:13px 15px;}
+.panel-main .panel-body{padding: 40px 0}
+.checkbox-head{padding-top:0px;}
+.table-title{padding:15px 20px; margin-top:20px;}
+
+.logo{float:none; text-align: center;}
+.header_menu{float: none !important; margin:10px 0 !important;padding:0; text-align: center;}
+.main_banner .header_menu li:first-child {padding: 0;}
+.main_banner .header_menu li{float:none; display:inline-block;}
+.login-from-main{width:450px; padding:30px;}
+.user-text{width:86%}
+.login-from-main .form-group.user-text{float:left; margin-left:10px;padding:0 }
+.quis-pop-inner-wrp, .quiz-question-wrp{padding:20px;}
+.clonedInput .action-box {margin: 10px auto 0; width: 76%; padding: 0}
+.radio-list.pull-right.top-question-radio li {width: 25%;}
+.action-box .correct-box ul{text-align: left;}
+.report-card-studyarea, .quiz-quest-comment{padding:20px;}
+.clonedInput .pull-right{float:none !important}
+
+.quiz-summery .modal-body{padding:15px 0}
+.quiz-summery .modal-header{padding:0 0 15px} 
+.QuestionComment .quiz-quest-comment .QuestionName h4{margin-bottom:20px}
+button.close{right: 6px; top:6px}
+.QuestionComment .quiz-summery .afterCommentSubmit .alert-success{margin:0 }
+.QuestionComment .quiz-quest-comment label{width: auto;}
+.quiz-result .qstn-line .checkbox.remember.box-main, .quiz-result .qstn-line .radio.btn-radio{width:95% !important}
+.registration-main .link.commun_link.submit-link:last-child{margin:0; }
+.cart-tools{margin-bottom: 0}
+.create-question .comn_title{padding: 0 0 20px}
+.generate-quiz-sub-main .btn.btn-submit.btn-generate{float:none;}
+.QuestionComment .btn.btn-submit.btn-generate{margin-bottom:10px; margin-right:15px; padding:8px 25px}
+
+.QuestionComment .btn.btn-submit.btn-generate:last-child{margin-right: 0}
+.customer_slide .our-customer-image{width:130px; float:none; margin:0 auto}
+.contribute{padding:25px 0 0}
+.border-none.reg-none{width:88%}
+.student-register{margin:0px auto 20px; text-align: center; }
+.reg_part h1{padding:0}
+.main_banner .services_box > ul{margin-bottom: 0}
+
+.paid-user-dashboard-graph-main .main_header_title { padding: 10px 10px;width: 77%;float: right;box-shadow: none;}
+.paid-user-dashboard-graph-main .tooltip.tooltipstered {left: -58px}
+.home_work_alert_icon .homework-dropdown-content{left: 15px;top: 172px;width: 92%;}
+.user-dashboard-right {width: 100%;}
+.user-dashboard-right p {font-size: 11px; margin-bottom: 0; line-height: normal;}
+.full_cover .but.link.dash-more-info {margin-top: 0;}
+.user-dashboard-right {top: 75px;}
+
+.generate_quiz_new_class .form-group .readiobox {margin-left: 0;width: 100%;}
+.generate_quiz_new_class .select-dropdown.select-langu {float: right;width: 100%;}
+.create-question .regi.select-menu, .readiobox.multiple, .text-expiry-date {margin-right: 0;width: 90%;}
+.generate_quiz_new_class .quiz .readiobox.multiple {float: right;width: 100%;}
+.generate_quiz_new_class .quiz{padding-top:10px;}
+.create-question .generate-quiz-sub-main .box-one{float:left; width:100%;}
+.create-question .tooltip + .regi.select-menu {padding-left: 20px;}
+.generate-quiz-checkbox-section .select-dropdown.select-langu.select-wrong-prev-dropdown.clearifx {float: left;width: 100%;}
+.modal{z-index:99999;}
+.qstn-title{margin-top:30px;}
+.links-right a{border-bottom: 1px solid #333333; border-right:0px; display:block; padding-bottom:10px; margin-bottom:10px;}
+.links-right a:last-child{border-bottom:0px;}
+
+
+/**/
+
+.create-question .domain_topic_mode + .regi.select-menu {width: 85%;}
+.generate-quiz-sub-main .homework .domain_topic_mode {float: left;margin-right:7px !important;}
+.create-question label.regi{font-size:13px;}
+.create-question .regi.select-menu {width:100%;}
+.create-question .regi.select-menu.select-area {width:100%}
+.create-question .generate-quiz-sub-main .box-one{float:left; width:100%;}
+.create-question .select-dropdown.select-langu{width:100%}
+.generate-quiz-sub-main .homework .readiobox.multiple {clear: both;width: 100%;}
+.generate-quiz-sub-main .ms-options-wrap > button:focus, .generate-quiz-sub-main .ms-options-wrap > button{padding:0 5px;}
+
+.create-question .regi.select-menu.select-area {margin-top: 8px;width: 80%;}
+.create-question .regi.select-menu, .readiobox.multiple, .text-expiry-date {margin-right: 0;width: 100%;}
+
+.views-cascade{width:100%;}
+.my-cart.dropdown .user_name {width: 100%!important;}
+}
+
+@media (max-width: 479px){
+.we_help_section .student_section{float:none; width:auto; margin:0}
+.add_banner{width:47%}
+.testimonials{border-bottom:880px solid #1b4992;}
+.slide_img {width: 98%;}
+
+.main_banner .header_menu li a, .link, button.btn-submit, .btn.btn-submit.btn-main, .btn.btn-submit.btn-generate, .form-actions .btn-success, .form-actions .btn-danger{font-size:14px; margin:0 auto;}
+.btn-success.danger-btn, .btn.btn-danger.danger-btn{margin: 0}
+.we_help_section .student_section .category_detail{min-height:initial;}
+.user_name{width: 100%;padding: 10px 15px;}
+.user_name > a {font-size: 13px;}
+.form-actions .btn-success:first-child{margin-right:10px;}
+.dropdown-content{width:100%}
+.form-actions .btn-success, .form-actions .btn-danger{min-width:104px; padding:9px}
+.customer-sldier-main, .customer_slide, .customer_slide .owl-carousel{height:initial;}
+
+.border-none.reg-none{width:81%}
+.my-account-user-details .select-langu{width:73%}
+div.dataTables_info, div.dataTables_paginate{float:left !important; display: block; margin-bottom: 10px}
+
+.prd_type li{width:100%; float:none;}
+.dashboard-main{padding-bottom: 0}
+
+.quiz-question .generate-main .btn-generate{margin: 0 0 10px !important; font-size:14px;}
+.quiz-question .generate-main .right{float: none !important; margin: 0 !important; font-size:14px;}
+
+.quiz .regi.select-menu.select-area{width:86%}
+
+.membership .create-question .regi{display: block; }
+.question-optionSelect label.regi{float:none; margin-bottom:10px;}
+.membership .create-question .select-dropdown, .create-question .width-start, .select-dropdown, .select-accessType{display: block;width:100%; float:none;}
+.profile_setting .border-none.reg-none, .profile_setting .select-dropdown{width:83%}
+.quiz-question-title .HeaderLeft, .modal-title, .quiz-resume-thank-you-main h4, .bootbox-confirm h4.popup-head-title, .popup-total-answer, .quiz-engine-head h4, .nav.nav-tabs.tabs-account a, .memer-login h3, .quis-pop-inner-wrp > h3, .QuestionComment .btn.btn-submit.btn-generate{font-size:14px; line-height: normal;}
+.qstn-main .qstn-title{float:none; margin-bottom:10px;}
+.checkbox_type.checkbox_maiil > label {float: left;}
+.checkbox.remember.box-main span{float: left;}
+.qstnBody .checkbox.remember.box-main{float:none;  }
+.btnarea-left .link.commun_link, .btnarea-right .link.commun_link{font-size:14px; width:110px; word-break: break-all;}
+.btnarea-cont .link.commun_link.submit-link{margin:0 0 10px; padding: 8px 15px !important}
+
+.qstn-line input.fill-the-blank-ques{width:auto; display: block; margin-bottom: 10px;}
+.quiz-summery a{line-height: 35px !important; height:35px !important; float:none !important;}
+.modal-footer{padding:5px 0}
+.modal-footer .answered, .unanswered, .review, .notViewed, .quiz-result-summery .Correct, .quiz-result-summery .Wrong, .quiz-result-summery .didnotProvideAns{display: block; width:100%; line-height: inherit !important; height:inherit !important;}
+
+.quiz-resume-thank-you-main h2{font-size:16px;}
+.registration-main .link.commun_link.submit-link{ padding:8px 9px; font-size:13px;}
+
+.quiz-resume-thank-you-main h2::before{left: -95px}
+.quiz-resume-thank-you-main h2::after{right:-95px;}
+.quiz-resume-thank-you-main h4{margin:10px 0 15px;}
+
+.bootbox-confirm .btn {margin: 5px auto 0; padding:6px 34px; font-size:15px;}
+.contribute .link.commun_link, .contribute .commun_link{width:130px}
+.contribute .col-sm-4{float:left; margin-bottom:10px;}
+.action-box{width:93%; margin-top:10px; padding-left: 0px;}
+.close-times{margin-top:15px; padding: 0}
+.payments-fields-right .checkbox.remember.box-main{margin-bottom:10px;}
+.payments-fields-right .checkbox.remember.box-main span{float: left; width:73%; font-size:13px;}
+.payments-fields-right .checkbox_type > label{float:left;}
+.table-title h5, .nav.nav-tabs.tabs-account a{font-size:13px}
+.registration-form, .checkbox-head{overflow:auto;}
+.nav.nav-tabs.tabs-account a{padding:10px}
+.nav.nav-tabs.tabs-account li.active a{padding: 11px}
+.login-from-main{width:100%}
+.user-text{width:80%; float: left; padding-left:15px;}
+.check-remeber-main{width:95%}
+
+.login-from-main .link.login{margin:20px auto; }
+.table-main{padding:10px 20px;}
+.registration-form-left{padding:35px 20px 15px;}
+.customer_slide .c_detail{bottom:-25px; width: auto; margin: 0}
+.radio-list.pull-right.top-question-radio li{width: 40%}
+.customer_slide .our-customer-image {width:88%;margin: 0 auto; float: none;}
+.customer_slide .our-customer-image img {width: 100%;}
+.user-text{width:78%}
+.login-from-main .checkbox.remember label, .check-remeber-main{text-align: center;}
+.remember, .login-from-main .checkbox_type, .check-remeber-main .checkbox_type span {display: inline-block; float: none; margin: 3px auto 0; text-align: center;}
+.forgot-pass{float:none; margin-top:10px;}
+.reg_part h1{font-size: 13px; font-weight: 600; }
+
+
+}
+@media (max-width: 359px){
+	.check-remeber-main .checkbox_type > label{margin-top:-5px;}
+	.box-select-main{top:-2px; height:5px;}
+	.create-question .btn.btn-submit.btn-generate{font-size:13px;}
+	.create-question .regi.select-menu, .readiobox.multiple, .text-expiry-date {margin-right: 0;width:85%;}
+	.create-question .form-control, .create-question label.regi{font-size:12px;}
+	
+	.generate_quiz_new_class .quiz .readiobox.multiple {float: right;width: 100%;}
+	.generate_quiz_new_class .quiz{padding-top:10px;}
+	.create-question .generate-quiz-sub-main .box-one{float:left; width:100%;}
+	.create-question .tooltip + .regi.select-menu {padding-left: 20px;}
+	.generate-quiz-checkbox-section .select-dropdown.select-langu.select-wrong-prev-dropdown.clearifx {float: left;width: 100%;}
+	.modal{z-index:99999;}
+	.qstn-title{margin-top:30px;}
+	.links-right a{border-bottom: 1px solid #333333; border-right:0px; display:block; padding-bottom:10px; margin-bottom:10px;}
+	.links-right a:last-child{border-bottom:0px;}
+
+	
+	
+}
+@media screen and (min-width:360px ) and (max-width:383px){
+	.profile_setting .border-none.reg-none, .profile_setting .select-dropdown{width:85% !important}
+}
+@media screen and (min-width:390px ) and (max-width:479px){
+	.profile_setting .border-none.reg-none, .profile_setting .select-dropdown {width: 87%;}
+}
